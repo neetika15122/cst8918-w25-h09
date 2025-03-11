@@ -1,6 +1,7 @@
+# Define the Azure provider and enable required features
 provider "azurerm" {
   features {}
-  subscription_id = "448062d7-165d-4a76-80a4-232121e9a36e"
+  subscription_id = "448062d7-165d-4a76-80a4-232121e9a36e" 
 }
  
 resource "azurerm_resource_group" "aks_rg" {
