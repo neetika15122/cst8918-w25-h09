@@ -2,11 +2,7 @@
 *.tfstate
 *.tfstate.backup
 .terraform/
-
- 
-# Kubernetes kubeconfig (contains sensitive credentials)
 kubeconfig
- 
 # Ignore environment variables and log files
 .env
 *.log
